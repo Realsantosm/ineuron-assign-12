@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Red Rose";
+}
+
+/* --------------------Heading-Section-Styles------------------------ */
+
+.heading-section {
+  background-color: #676f79;
+  padding-top: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-logo .logo-img {
+    width: 120px;
+}
+
+.heading-list-items {
+  display: flex;
+  align-items: center;
+}
+
+.list-item {
+  list-style-type: none;
+  margin: 0 10px;
+  font-size: 22px;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+.list-item a:hover {
+  color: #fff;
+}
+
+.list-btn {
+  border: 2px solid #111;
+  padding: 10px 20px;
+  margin: 0 0 0 60px;
+}
+
+.list-btn:hover {
+    border-color: #fff;
+    color: #fff;
+}
+
+/* ------Heading-Section---Two---------- */
+
+.hero-img {
+    width: 500px;
+}
+
+.heading-section-two {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    padding: 40px 0;
+}
